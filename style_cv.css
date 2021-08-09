@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container{
+    width: 800px;
+    margin:  auto;
+    padding: 10px;  
+    background-color: #34495e; 
+}
+
+h1,h2,h3,h5,h6{
+    color: lightgreen;
+    font-weight: bolder;
+}
+h4{
+    color: lightseagreen;
+}
+p{
+    color:#ffffff;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.profile-image img{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.header-bio{
+    padding-top: 35px;
+    margin-left: 5px;
+    line-height: 1.8rem;
+
+}
+.header-bio a{
+    color: lightseagreen;
+}
+.header-bio a:hover{
+    
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    margin: 3px auto;
+    border:  3px solid gray;
+    border-bottom: none;
+}
+
+    /* Personal section start */
+
+#personal-section{
+
+}    
+
+.content{
+    margin-top:10px;
+
+}
+
+.left-div{
+    border-left: solid 3px lightseagreen;
+    float: left;
+    display: inline;
+     
+}
+.left-div h3{
+    margin-left: 10px;
+    font-size: 19px;
+}    
+
+.right-div{
+    width: 70%;
+    float: right;
+    line-height: 1.6rem;
+}
+
+.clear-div{
+    clear: both;
+}
+
+.common-hr{
+    border: gray 1px solid;
+    border-bottom:none ;
+    margin: 20px auto;
+}
+
+/* Personal section end */
+
+
+
+
+
+/* work section start */
+  
+
+
+#work-section{
+    
+
+}    
+
+.content{
+
+}
+
+
+/* work section end */
+
+
+
+
+
+/* key skills section start */
+
+
+#skills-section{
+
+
+}    
+
+.content{
+
+}
+
+.skills-left-div{
+    border-left: solid 3px lightseagreen;  
+    float: left;
+    display: inline;
+}
+.skills-left-div h3{
+    margin-left: 10px;
+    font-size: 19px;
+}      
+
+.skills-right-div{
+    width: 70%;
+    float: right;
+}
+
+.clear-div{
+    clear: both;
+}
+
+
+
+.work-hr{
+    border: gray 1px solid;
+    border-bottom:none ;
+    margin: 20px auto;
+}
+
+/* key skills section end */
+
+
+
+  
+/* education section start */
+
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-left a{
+    color: lightseagreen;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
+.edu-template-right a{
+    color: lightseagreen;
+}
+
+.clear-div{
+    clear: both;
+}
+
+
+/* education section end */
+
+/* footer start */
+
+.footer-container{
+    background-color: rgba(12, 53, 46, 0.733);
+    text-align: center;
+    padding: 10px;
+    
+}
+.footer-container a{
+    color: lightseagreen;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+.footer-container a:hover{
+    text-decoration: underline;
+    
+}
+.footer-container p{
+    color: lightseagreen;
+}
+
+
+/* footer end */
